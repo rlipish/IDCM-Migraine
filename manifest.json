@@ -1,0 +1,17 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "IDCM Chronic Migraine Calculator",
+    "short_name": "IDCM Chronic Mi",
+    "scope": "/~rlipish/templated-transitive/indextransitive.html",
+    "display": "browser",
+    "start_url": "https://people.ucalgary.ca/~rlipish/templated-transitive/indextransitive.html",
+    "background_color": "transparent",
+    "theme_color": "transparent",
+    "description": "",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [],
+    "url": "https://people.ucalgary.ca/~rlipish/templated-transitive/indextransitive.html"
+}

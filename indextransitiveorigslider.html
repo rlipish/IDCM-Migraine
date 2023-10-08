@@ -1,0 +1,509 @@
+<!DOCTYPE HTML>
+<!--
+	Transitive by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+<head>
+<title>Transitive by TEMPLATED</title>
+<meta charset="utf-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!--	   <link rel="stylesheet" href="css/style.css">-->
+<!--<link href="//goo.gl/mTc43h" rel="stylesheet">-->
+
+<link rel="stylesheet" href="assets/css/main.css" />
+<!--<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.button.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.button.min.js"></script>-->
+</head>
+<body>
+
+<!-- Header -->
+<header id="header" class="alt">
+  <div class="logo"><a href="index.html">Transitive <span>by TEMPLATED</span></a></div>
+  <a href="#menu" class="toggle"><span>Menu</span></a> </header>
+
+<!-- Nav -->
+<nav id="menu">
+  <ul class="links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="generic.html">About Us</a></li>
+    <li><a href="elements.html">Elements</a></li>
+  </ul>
+</nav>
+
+<!-- Banner --> 
+<!--
+			To use a video as your background, set data-video to the name of your video without
+			its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
+			formats to work correctly.
+		-->
+<section id="banner" data-video="images/banner">
+  <div class="inner">
+    <h1>ID-CM <br>
+      Calculator</h1>
+    <p>A full responsive, business-oriented HTML5/CSS3 template<br />
+      built by <a href="https://templated.co/">Templated</a> and released under the <a href="https://templated.co/license">Creative Commons</a>.</p>
+    <a href="#one" class="button special scrolly">Get Started</a> </div>
+</section>
+
+<!-- One -->
+<section id="one" class="wrapper style2">
+  <div class="inner">
+    <div>
+      <div class="box">
+        <div class="image fit"> <img src="images/pic01.jpg" alt="" /> </div>
+        <div class="content">
+          <header class="align-center">
+            <h2>ID-CM Chronic Migraine calculator</h2>
+            <p>maecenas feugiat ex purus, quis volutpat lacus placerat</p>
+          </header>
+          <hr />
+          <p>In the last 3 months (past 90 days), on how many days did you have a headache of any type?</p>
+<!--          <p>
+			
+			  
+            <label for="number">Number:</label>
+            <input type="number" name="number" id="number" />
+          </p>-->
+				<!--<div class="slidecontainer">
+  <input type="range" min="1" max="90" value="45" class="slider" id="number">
+</div>  -->
+			
+			
+	
+
+<input type="range"  name="range1" id="range1" value="100" step="25" min="1" max="1100" data-rangeslider>
+<br />
+<output class="output10">100</output>
+
+			
+	
+				   <p id="demo2"></p>
+			
+          <p>In the last month (past 30 days),
+            on how many days did you have
+            a headache of any type?</p>
+<!--          <p>
+            <label for="number2">Number:</label>
+            <input type="number" name="number2" id="number3" />
+          </p>-->
+			
+			<p id="demofinal"></p>
+		<!--	<div class="slidecontainer">
+  <input type="range" min="1" max="30" value="15" class="slider" id="number2">
+</div>  -->
+          <p></p>
+          <input type="button" name="Add" value="Add" onclick="addTwoNumber()"/>
+          <p></p>
+          <p id="demo"></p>
+          <p id="demo1"></p>
+		
+          <p name="demo2"></p>
+			
+			 <div>
+        <h2><code>value="0"</code></h2>
+        <input type="range"  name="test1" value="0" data-rangeslider>
+        <output></output>    
+		
+    </div>
+          <p> How often were you unusually sensitive to light (eg, you felt more comfortable in a dark place)?</p>
+          <div id="RadioButtons2">
+            <input type="radio" name="RadioButtons2" id="Radio4">
+            <label for="Radio4">Never</label>
+            <br>
+            <input type="radio" name="RadioButtons2" id="Radio5">
+            <label for="Radio5">Rarely<br>
+            </label>
+            <br>
+            <input type="radio" name="RadioButtons2" id="Radio6">
+            <label for="Radio6">Less than half the time</label>
+            <br>
+            <input type="radio" name="RadioButtons2" id="Radio7">
+            <label for="Radio7">Half the time or more</label>
+            <br>
+			  <br>
+          </div>
+          <p> How often were you unusually sensitive to sound (eg, you felt
+            more comfortable in a quiet place)?</p>
+          <div id="RadioButtons3">
+            <input type="radio" name="RadioButtons3" id="Radio8">
+            <label for="Radio8">Never</label>
+            <br>
+            <input type="radio" name="RadioButtons3" id="Radio9">
+            <label for="Radio9">Rarely<br>
+            </label>
+            <br>
+            <input type="radio" name="RadioButtons3" id="Radio10">
+            <label for="Radio10">Less than half the time</label>
+            <br>
+            <input type="radio" name="RadioButtons3" id="Radio11">
+            <label for="Radio11">Half the time or more</label>
+            <br>
+			  <br>
+          </div>
+          <p> How often was the pain moderate or severe?</p>
+          <div id="RadioButtons4">
+            <input type="radio" name="RadioButtons4" id="Radio12">
+            <label for="Radio12">Never</label>
+            <br>
+            <input type="radio" name="RadioButtons4" id="Radio13">
+            <label for="Radio13">Rarely<br>
+            </label>
+            <br>
+            <input type="radio" name="RadioButtons4" id="Radio14">
+            <label for="Radio14">Less than half the time</label>
+            <br>
+            <input type="radio" name="RadioButtons4" id="Radio15">
+            <label for="Radio15">Half the time or more</label>
+            <br>
+			  <br>
+	
+          </div>
+          <p> How often did you feel nauseated or sick to our stomach?</p>
+          <div id="RadioButtons5">
+            <input type="radio" name="RadioButtons5" id="Radio16">
+            <label for="Radio16">Never</label>
+            <br>
+            <input type="radio" name="RadioButtons5" id="Radio17">
+            <label for="Radio17">Rarely<br>
+            </label>
+            <br>
+            <input type="radio" name="RadioButtons5" id="Radio18">
+            <label for="Radio18">Less than half the time</label>
+            <br>
+            <input type="radio" name="RadioButtons5" id="Radio19">
+            <label for="Radio19">Half the time or more</label>
+            <br>
+            <br>
+          </div>
+          <p>Vivamus fermentum nibh vel pharetra blandit. Cras a purus urna. Sed et libero ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse id hendrerit felis. Nulla viverra tempor dui at congue. Pellentesque quis nulla ornare, congue nisi id, finibus nulla. Aliquam sit amet hendrerit purus. Donec libero massa, posuere fermentum eros sit amet, maximus fringilla augue. Maecenas at rhoncus lorem. Vivamus ultricies consequat est, efficitur convallis libero. Vivamus rutrum semper mauris, vitae consequat eros tempor ac. Pellentesque et ornare sapien</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Two -->
+
+<section id="two" class="wrapper style3">
+  <div class="inner">
+    <div id="flexgrid">
+      <div>
+        <header>
+          <h3>Tempus Feugiat</h3>
+        </header>
+        <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu</p>
+        <ul class="actions">
+          <li><a href="#" class="button alt">Learn More</a></li>
+        </ul>
+      </div>
+      <div>
+        <header>
+          <h3>Aliquam Nulla</h3>
+        </header>
+        <p>Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec dapibus tortor nibh sed </p>
+        <ul class="actions">
+          <li><a href="#" class="button alt">Learn More</a></li>
+        </ul>
+      </div>
+      <div>
+        <header>
+          <h3>Sed Magna</h3>
+        </header>
+        <p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula.</p>
+        <ul class="actions">
+          <li><a href="#" class="button alt">Learn More</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Three -->
+<section id="three" class="wrapper style2">
+  <div class="inner">
+    <div class="grid-style">
+      <div>
+        <div class="box">
+          <div class="image fit"> <img src="images/pic02.jpg" alt="" /> </div>
+          <div class="content">
+            <header class="align-center">
+              <h2>Medication use</h2>
+              <p>What was your MEDICATION USE for headache in the last month (past 30 days)?</p>
+            </header>
+            <p> When answering the next 2 questions, only count medications you take as needed to relieve headache.</p>
+            <p>How many days did you use over-the-counter medications
+              to treat your headache attacks?</p>
+            <p>
+              <label for="number3">Number:</label>
+              <input type="number" name="number3" id="number3" />
+            </p>
+            <p>How many days did you use prescription medications to treat your headache attacks?</p>
+            <p>
+              <label for="number4">Number:</label>
+              <input type="number" name="number4" id="number4" />
+            </p>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="box">
+        <div class="image fit"> <img src="images/pic03.jpg" alt="" /> </div>
+        <div class="content">
+          <header class="align-center">
+            <h2>Activities</h2>
+            <p>How often did headache interfere with ACTIVITIES in the last month (past 30 days)?</p>
+          </header>
+          <hr />
+          <p> </p>
+          <p>How many days did you miss work or school because of your headaches?</p>
+          <p>
+            <label for="number5">Number:</label>
+            <input type="number" name="number5" id="number5" />
+          </p>
+          <p>How many days did you miss family, social, or leisure activities because of your headaches?</p>
+          <p>
+            <label for="number6">Number:</label>
+            <input type="number" name="number6" id="number6" />
+          </p>
+        </div>
+      </div>
+    </div>
+	      <div>
+      <div class="box">
+        <div class="image fit"> <img src="images/pic03.jpg" alt="" /> </div>
+        <div class="content">
+          <header class="align-center">
+            <h2>making plans</h2>
+            <p>How often did headache affect MAKING PLANS in the last month (past 30 days)?</p>
+          </header>
+          <hr />
+          <p> </p>
+                  <p> How often did your headaches interfere with making plans?</p>
+          <div id="RadioButtons6">
+            <input type="radio" name="RadioButtons6" id="Radio20">
+            <label for="Radio20">Never</label>
+            <br>
+            <input type="radio" name="RadioButtons6" id="Radio21">
+            <label for="Radio21">Rarely<br>
+            </label>
+            <br>
+            <input type="radio" name="RadioButtons6" id="Radio22">
+            <label for="Radio22">Less than half the time</label>
+            <br>
+            <input type="radio" name="RadioButtons6" id="Radio23">
+            <label for="Radio23">Half the time or more</label>
+            <br>
+			  <br>
+          </div>
+          <p> How often did you worry about making plans because of your headaches?</p>
+          <div id="RadioButtons7">
+            <input type="radio" name="RadioButtons7" id="Radio24">
+            <label for="Radio24">Never</label>
+            <br>
+            <input type="radio" name="RadioButtons7" id="Radio25">
+            <label for="Radio25">Rarely<br>
+            </label>
+            <br>
+            <input type="radio" name="RadioButtons7" id="Radio26">
+            <label for="Radio26">Less than half the time</label>
+            <br>
+            <input type="radio" name="RadioButtons7" id="Radio27">
+            <label for="Radio27">Half the time or more</label>
+            <br>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+	
+			<input type="range"  name="range" id="range" value="100" step="25" min="1" max="1100" data-rangeslider>
+<br />
+<output class="output1">100</output>
+
+
+</section>
+
+			<input type="range"  name="range" id="range" value="100" step="25" min="1" max="1100" data-rangeslider>
+<br />
+<output class="output1">100</output>	
+	
+<!-- Four -->
+<section id="four" class="wrapper style3">
+  <div class="inner">
+    <header class="align-center">
+      <h2>Morbi interdum mollis sapien</h2>
+      <p>Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada. Praesent in sem ex. Morbi mattis sapien pretium tellus venenatis, at egestas urna ornare.</p>
+    </header>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer id="footer" class="wrapper">
+  <div class="inner">
+    <section>
+      <div class="box">
+        <div class="content">
+          <h2 class="align-center">Get in Touch</h2>
+          <hr />
+          <form action="#" method="post">
+            <div class="field half first">
+              <label for="name">Name</label>
+              <input name="name" id="name" type="text" placeholder="Name">
+            </div>
+            <div class="field half">
+              <label for="email">Email</label>
+              <input name="email" id="email" type="email" placeholder="Email">
+            </div>
+            <div class="field">
+              <label for="dept">Department</label>
+              <div class="select-wrapper">
+                <select name="dept" id="dept">
+                  <option value="">- Category -</option>
+                  <option value="1">Manufacturing</option>
+                  <option value="1">Shipping</option>
+                  <option value="1">Administration</option>
+                  <option value="1">Human Resources</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+            </div>
+            <ul class="actions align-center">
+              <li>
+                <input value="Send Message" class="button special" type="submit">
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </section>
+    <div class="copyright"> &copy; Untitled Design: <a href="https://templated.co/">TEMPLATED</a>. Images <a href="https://unsplash.com/">Unsplash</a>. Video <a href="http://coverr.co/">Coverr</a>. </div>
+  </div>
+</footer>
+
+<!-- Scripts --> 
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/jquery.scrolly.min.js"></script> 
+<script src="assets/js/jquery.scrollex.min.js"></script> 
+<script src="assets/js/skel.min.js"></script> 
+<script src="assets/js/util.js"></script> 
+<script src="assets/js/main.js"></script> 
+	  <script src="assets/js/rangeslider.js"></script>
+<!--<script type="text/javascript">
+$(function() {
+	$( "#RadioButtons1" ).buttonset(); 
+});
+$(function() {
+	$( "#RadioButtons2" ).buttonset(); 
+});
+</script>-->
+	 <script>
+    $(function() {
+
+        var $document = $(document);
+        var selector = '[data-rangeslider]';
+        var $element = $(selector);
+
+        // For ie8 support
+        var textContent = ('textContent' in document) ? 'textContent' : 'innerText';
+
+        // Example functionality to demonstrate a value feedback
+        function valueOutput(element) {
+            var value = element.value;
+            var output = element.parentNode.getElementsByTagName('output')[0] || element.parentNode.parentNode.getElementsByTagName('output')[0];
+            output[textContent] = value;
+        }
+
+        $document.on('input', 'input[type="range"], ' + selector, function(e) {
+            valueOutput(e.target);
+        });
+
+        // Example functionality to demonstrate disabled functionality
+        $document .on('click', '#js-example-disabled button[data-behaviour="toggle"]', function(e) {
+            var $inputRange = $(selector, e.target.parentNode);
+
+            if ($inputRange[0].disabled) {
+                $inputRange.prop("disabled", false);
+            }
+            else {
+                $inputRange.prop("disabled", true);
+            }
+            $inputRange.rangeslider('update');
+        });
+
+        // Example functionality to demonstrate programmatic value changes
+        $document.on('click', '#js-example-change-value button', function(e) {
+            var $inputRange = $(selector, e.target.parentNode);
+            var value = $('input[type="number"]', e.target.parentNode)[0].value;
+
+            $inputRange.val(value).change();
+        });
+
+        // Example functionality to demonstrate programmatic attribute changes
+        $document.on('click', '#js-example-change-attributes button', function(e) {
+            var $inputRange = $(selector, e.target.parentNode);
+            var attributes = {
+                    min: $('input[name="min"]', e.target.parentNode)[0].value,
+                    max: $('input[name="max"]', e.target.parentNode)[0].value,
+                    step: $('input[name="step"]', e.target.parentNode)[0].value
+                };
+
+            $inputRange.attr(attributes);
+            $inputRange.rangeslider('update', true);
+        });
+
+        // Example functionality to demonstrate destroy functionality
+        $document
+            .on('click', '#js-example-destroy button[data-behaviour="destroy"]', function(e) {
+                $(selector, e.target.parentNode).rangeslider('destroy');
+            })
+            .on('click', '#js-example-destroy button[data-behaviour="initialize"]', function(e) {
+                $(selector, e.target.parentNode).rangeslider({ polyfill: false });
+            });
+
+        // Example functionality to test initialisation on hidden elements
+        $document
+            .on('click', '#js-example-hidden button[data-behaviour="toggle"]', function(e) {
+                var $container = $(e.target.previousElementSibling);
+                $container.toggle();
+            });
+
+        // Basic rangeslider initialization
+        $element.rangeslider({
+
+            // Deactivate the feature detection
+            polyfill: false,
+
+            // Callback function
+            onInit: function() {
+                valueOutput(this.$element[0]);
+            },
+
+            // Callback function
+            onSlide: function(position, value) {
+                console.log('onSlide');
+                console.log('position: ' + position, 'value: ' + value);
+            },
+
+            // Callback function
+            onSlideEnd: function(position, value) {
+                console.log('onSlideEnd');
+                console.log('position: ' + position, 'value: ' + value);
+            }
+        });
+
+    });
+    </script>
+</body>
+</html>
